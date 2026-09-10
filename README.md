@@ -2,7 +2,7 @@
 
 Diskitude Revamped is a modernized clone of the fantastic [Diskitude](https://madebyevan.com/diskitude/) Windows app by Evan Wallace. It shares the same base feature set plus many enhancements while being smaller (<= 8 kB instead of <=10 kB).
 
-<img width="1542" height="844" alt="image" src="https://github.com/user-attachments/assets/3b1a268c-7f01-43e4-b25a-791199295986" />
+<img width="1573" height="828" alt="image" src="https://github.com/user-attachments/assets/b1fe1138-f72e-4867-be34-36d9b627f3d5" />
 
 LLMs were used to aid development.
 
