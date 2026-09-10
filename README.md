@@ -2,6 +2,8 @@
 
 Diskitude Revamped is a modernized clone of the fantastic [Diskitude](https://madebyevan.com/diskitude/) Windows app by Evan Wallace. It shares the same base feature set plus many enhancements while being smaller (<= 8 kB instead of <=10 kB).
 
+LLMs were used to aid development.
+
 ## Use
 
 Run `DiskitudeRevamped.exe` and choose a specific drive or folder to scan. You can also choose to simultaneously scan and display all drives by selecting `This PC`. A directory can also be specified directly via argument on launch. Scanning runs in the background, publishes progress while it works, supports Unicode paths, and skips directory reparse points to avoid loops.
