@@ -37,6 +37,12 @@ Refreshing can also detects added or removed drive letters.
 - Exact size totals, percentage labels, and human-friendly TB/PB/EB units
 - Native Windows drawing removes the OpenGL dependency. The uncompressed executable is 8,173 bytes or about 20% smaller than the original.
 
+## Compact Variant
+
+The compact version eschews animations and help text, additional tuning, a custom build process, and a compressed executable format to get under 4,096 bytes (i.e. small enough to typically fit in a single disk sector). The goal of this is to show how much can be done in a program roughly the size of the text in this readme.md file.
+
+Note: the original Diskitude explicitly avoided using a compressed executable format, which makes sense as the gain of a few bytes on disk isn't worth the slight startup delay & RAM usage needed to decompress the executable.
+
 ## Source and build
 
 `src` contains the complete NASM source and a single PowerShell build script. Install NASM 3.02 or newer and place `nasm.exe` on `PATH`, then run from the `src` directory:
